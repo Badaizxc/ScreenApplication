@@ -10,11 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BaiTap">
 
-        <!-- Activity Đăng ký (không có intent-filter, không cần exported) -->
         <activity android:name=".RegisterActivity"
             android:exported="false" />
 
-        <!-- Activity Đăng nhập (launcher, có intent-filter → phải khai báo exported) -->
         <activity android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
